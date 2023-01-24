@@ -4,10 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form validator</title>
+    <title>Form validatie</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <section class="container">
+      <h1>Registeren</h1>
+
+      <!-- form -->
+      <form class="form">
+        <div class="form__field">
+          <label for="username">Gebruikersnaam</label>
+          <input
+            type="text"
+            required
+            name="username"
+            id="username"
+            placeholder="Voer gebruikersnaam in."
+          />
+          <small class="alert">error message</small>
+        </div>
+        <div class="form__field">
+          <label for="email">E-mailadres</label>
+          <input
+            type="email"
+            required
+            name="email"
+            id="email"
+            placeholder="Voer e-mailadres in."
+          />
+          <small class="alert">error message</small>
+        </div>
+        <div class="form__field">
+          <label for="password">Wachtwoord</label>
+          <input
+            type="password"
+            required
+            name="password"
+            id="password"
+            placeholder="voer wachtwoord in"
+          />
+          <small class="alert">error message</small>
+        </div>
+        <div class="form__field">
+          <label for="confirmPassword">Wachtwoord bevestigen</label>
+          <input
+            type="confirmPassword"
+            required
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Voer gekozen wachtwoord opnieuw in."
+          />
+          <small class="alert">error message</small>
+        </div>
+        <button type="submit">Registreren</button>
+      </form>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
