@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: #efefef;
+}
+
+.container {
+  width: 70ch;
+  padding: 2em;
+  margin-inline: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 16px rgb(0 0 0 / 2%), 0 0 8px rgb(0 0 0 / 4%),
+    0 0 4px rgb(0 0 0 / 8%), 0 0 2px rgb(0 0 0 / 16%);
+  border-radius: 0.5rem;
+}
+
+.form {
+}
+
+.form__field {
+}
+
+label {
+}
+
+input {
+}
